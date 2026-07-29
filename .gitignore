@@ -1,0 +1,26 @@
+# Target binary and reverse-engineering databases
+winmine.exe
+*.i64
+analysis/ida_db/
+analysis/ida_*.json
+
+# Local course material and generated reports
+instruction.txt
+analysis/winmine_report_draft.md
+analysis/dynamic_verification_progress.json
+analysis/ida_done.txt
+output/
+tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration
+.env
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini

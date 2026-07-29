@@ -1,0 +1,147 @@
+{
+  "target": "winmine.exe",
+  "target_sha256": "D1A612A1791614B628A5C99F03B60FF1B979B8D1F088E99228893CB000C5DAF4",
+  "pid": 26348,
+  "hwnd": 2560576,
+  "title": "지뢰 찾기",
+  "initial": {
+    "width": 9,
+    "height": 9,
+    "mine_count_current": 10,
+    "timer": 0,
+    "opened": 0,
+    "safe_total": 71,
+    "game_flags": "0x00000001",
+    "face_state": 0,
+    "mine_count_from_board": 10,
+    "mines": [
+      {
+        "col": 3,
+        "row": 4,
+        "value": "0x8F"
+      },
+      {
+        "col": 8,
+        "row": 4,
+        "value": "0x8F"
+      },
+      {
+        "col": 4,
+        "row": 5,
+        "value": "0x8F"
+      },
+      {
+        "col": 4,
+        "row": 6,
+        "value": "0x8F"
+      },
+      {
+        "col": 6,
+        "row": 6,
+        "value": "0x8F"
+      },
+      {
+        "col": 5,
+        "row": 7,
+        "value": "0x8F"
+      },
+      {
+        "col": 7,
+        "row": 7,
+        "value": "0x8F"
+      },
+      {
+        "col": 6,
+        "row": 8,
+        "value": "0x8F"
+      },
+      {
+        "col": 7,
+        "row": 8,
+        "value": "0x8F"
+      },
+      {
+        "col": 8,
+        "row": 9,
+        "value": "0x8F"
+      }
+    ]
+  },
+  "initial_safe_count": 71,
+  "posted_clicks": 71,
+  "final": {
+    "width": 9,
+    "height": 9,
+    "mine_count_current": 10,
+    "timer": 1,
+    "opened": 71,
+    "safe_total": 71,
+    "game_flags": "0x00000010",
+    "face_state": 3,
+    "mine_count_from_board": 10,
+    "mines": [
+      {
+        "col": 3,
+        "row": 4,
+        "value": "0x8E"
+      },
+      {
+        "col": 8,
+        "row": 4,
+        "value": "0x8E"
+      },
+      {
+        "col": 4,
+        "row": 5,
+        "value": "0x8E"
+      },
+      {
+        "col": 4,
+        "row": 6,
+        "value": "0x8E"
+      },
+      {
+        "col": 6,
+        "row": 6,
+        "value": "0x8E"
+      },
+      {
+        "col": 5,
+        "row": 7,
+        "value": "0x8E"
+      },
+      {
+        "col": 7,
+        "row": 7,
+        "value": "0x8E"
+      },
+      {
+        "col": 6,
+        "row": 8,
+        "value": "0x8E"
+      },
+      {
+        "col": 7,
+        "row": 8,
+        "value": "0x8E"
+      },
+      {
+        "col": 8,
+        "row": 9,
+        "value": "0x8E"
+      }
+    ]
+  },
+  "won": true,
+  "screenshot": {
+    "captured": true,
+    "method": "PrintWindow",
+    "path": "analysis/winmine_verification.png",
+    "bbox": [
+      80,
+      80,
+      250,
+      336
+    ]
+  }
+}
