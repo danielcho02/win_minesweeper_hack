@@ -156,7 +156,7 @@ python tools\dynamic_verify_winmine.py C:\path\to\winmine.exe
 
 ### 4. IDA 정적 분석 수집
 
-IDA Professional 9.0에서 자동 분석을 완료한 뒤 제공된 IDAPython 스크립트를 실행한다.
+IDA에서 자동 분석을 완료한 뒤 제공된 IDAPython 스크립트를 실행한다.
 
 ```powershell
 $env:WINMINE_ANALYSIS_DIR = "$PWD\analysis"
